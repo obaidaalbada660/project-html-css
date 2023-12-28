@@ -21,7 +21,7 @@ body {
   background-color: var(--white-97);
 }
 .container {
-  width: calc(100% - 160px);
+  width: calc(100% - 320px);
   margin: auto;
 }
 .row {
@@ -132,6 +132,7 @@ header .auth {
 }
 /*tablets */
 @media screen and (min-width: 600px) and (max-width: 954px) {
+ 
   header nav {
     display: none;
   }
@@ -149,6 +150,7 @@ header .auth {
 }
 
 @media screen and (min-width: 1193px) {
+
   nav a {
     font-size: 18px;
   }
@@ -452,7 +454,7 @@ header .auth {
 }
 .benfit-header {
   display: flex;
-  gap: 50px;
+  gap: 150px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -604,7 +606,7 @@ header .auth {
 }
 .ourcourse-header {
   display: flex;
-  gap: 50px;
+  gap: 150px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -808,7 +810,7 @@ header .auth {
 }
 .testimonials-header {
   display: flex;
-  gap: 50px;
+  gap: 150px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -984,7 +986,7 @@ header .auth {
 }
 .pricing-header {
   display: flex;
-  gap: 50px;
+  gap: 150px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -1032,6 +1034,8 @@ header .auth {
   background-color: white;
   padding: 50px;
   border-radius: 12px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .pricing-items .pricing-item {
